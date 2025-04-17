@@ -16,7 +16,19 @@ taytay is a AI bot specialized in in-depth analysis of Taylor Swift career and s
    ```bash
    pip install -r requirements.txt
    ```
+## launch
+
 4. Run the app
    ```bash
    chainlit run src/app.py
    ```
+
+## TODO next
+
+[x] Mettre tout ça dans un git
+[X] Refactoring du cde pcq ça devient n'importe quoi
+[x] Ajoute du contexte de la conv
+[x] Clean up the mess
+[] Store des infos fixes (albums)
+[] vectorstore pour la bio de Tay 
+[] Debug Trace Error 2025-04-17 10:57:46 - Error in callback coroutine: TracerException('No indexed run ID e671b05a-e901-474c-9e7f-f64f55c35fbe.')
